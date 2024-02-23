@@ -1,0 +1,43 @@
+﻿@page
+@model PompeFunebre.Pages.ProduseurnizoriVariabil.IndexModel
+@{
+}
+
+<h2>Numele si pretul produs livrat de un anumit furnizor</h2>
+
+<form method="get">
+    <label for="productDropdown">Choose a product:</label>
+    <select id="productDropdown" name="productName">
+        @foreach (var item in Model.ProductNames)
+        {
+            <option value="@item.Value">@item.Text</option>
+        }
+    </select>
+    <button type="submit">Search</button>
+</form>
+
+@if (Model.ProduseurnizoriVariabilList != null && Model.ProduseurnizoriVariabilList.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nume</th>
+                <th>Pret</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ProduseurnizoriVariabilList)
+            {
+                <tr>
+                    <td>@item.Nume</td>
+                    <td>@item.Pret</td>
+                </tr>
+            
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No results found</p>
+}

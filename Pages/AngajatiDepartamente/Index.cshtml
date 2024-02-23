@@ -1,0 +1,26 @@
+﻿@page
+@model PompeFunebre.Pages.AngajatiDepartamente.IndexModel
+@{
+}
+
+<h2>Numele angajatilor si Departamentul lor</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Nume Departament</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.angajatiDepartamenteList)
+    {
+        <tr>
+            <td>@item.Nume</td>
+            <td>@item.Prenume</td>
+            <td>@item.NumeDepartament</td>
+        </tr>
+    }
+    </tbody>
+</table>

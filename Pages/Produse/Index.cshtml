@@ -1,0 +1,34 @@
+﻿@page
+@model PompeFunebre.Pages.Produse.IndexModel
+@{
+}
+
+<br />
+<h2>Lista Produse</h2>
+<a class="btn btn-primary btn-sm" href="/Produse/Create">Produs Nou</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nume</th>
+            <th>Pret</th>
+            <th>Material </th>
+            <th>Stoc </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.listProduse)
+        {
+        <tr>
+            <td>@item.Nume</td>
+            <td>@item.Pret</td>
+            <td>@item.Material </td>
+            <td>@item.Stoc </td>
+            <td>
+                    <a class="btn btn-primary btn-sm" href="/Produse/Edit?ProduseID=@item.ProduseID">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Produse/Delete?ProduseID=@item.ProduseID">Delete</a>
+            </td>
+        </tr>
+        }
+
+    </tbody>
+</table>

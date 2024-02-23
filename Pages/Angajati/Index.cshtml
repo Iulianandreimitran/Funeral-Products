@@ -1,0 +1,50 @@
+﻿@page
+@model PompeFunebre.Pages.Angajati.IndexModel
+@{
+}
+
+<br />
+<h2>Lista Angajati</h2>
+<a class="btn btn-primary btn-sm" href="/Angajati/Create">Angajat Nou</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nume </th>
+            <th>Prenume</th>
+            <th>DataNasterii</th>
+            <th>CNP </th>
+            <th>Strada </th>
+            <th>Numar </th>
+            <th>Sex </th>
+            <th>Telefon</th>
+            <th>Oras </th>
+            <th>Judet</th>
+            <th>Salariu</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.listAngajati)
+        {
+        <tr>
+            <td>@item.Nume </td>
+            <td>@item.Prenume</td>
+            <td>@item.DataNasterii</td>
+            <td>@item.CNP </td>
+            <td>@item.Strada </td>
+            <td>@item.Numar </td>
+            <td>@item.Sex </td>
+            <td>@item.Telefon</td>
+            <td>@item.Oras </td>
+            <td>@item.Judet</td>
+            <td>@item.Salariu</td>
+            <td>@item.Email</td>
+            <td>
+                    <a class="btn btn-primary btn-sm" href="/Angajati/Edit?AngajatiID=@item.AngajatiID">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Angajati/Delete?AngajatiID=@item.AngajatiID">Delete</a>
+            </td>
+        </tr>
+        }
+
+    </tbody>
+</table>

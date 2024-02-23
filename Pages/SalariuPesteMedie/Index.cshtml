@@ -1,0 +1,26 @@
+﻿@page
+@model PompeFunebre.Pages.SalariuPesteMedie.IndexModel
+@{
+}
+
+<h2>Salariu peste sau cat media din departament</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Salariu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.SalariuPesteMedieList)
+        {
+            <tr>
+                <td>@item.Nume</td>
+                <td>@item.Prenume</td>
+                <td>@item.Salariu</td>
+            </tr>
+        }
+    </tbody>
+</table>

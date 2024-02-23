@@ -1,0 +1,23 @@
+﻿@page
+@model PompeFunebre.Pages.ClientiFurnizori.IndexModel
+@{
+}
+<h2>Clienti care au cumparat de la doar un furnizor</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nume</th>
+            <th>Prenume</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ClientiFurnizoriList)
+        {
+            <tr>
+                <td>@item.Nume</td>
+                <td>@item.Prenume</td>
+            </tr>
+        }
+    </tbody>
+</table>

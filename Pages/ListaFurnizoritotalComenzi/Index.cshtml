@@ -1,0 +1,25 @@
+﻿
+@page
+@model PompeFunebre.Pages.ListaFurnizoritotalComenzi.IndexModel
+@{
+}
+
+<h2>Numele Furnizorilor si total-ul comenzilor lor</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nume Furnizor</th>
+            <th>Total Comenzi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.angajatiDepartamenteList1)
+        {
+            <tr>
+                <td>@item.Nume</td>
+                <td>@item.Pret</td>
+            </tr>
+        }
+    </tbody>
+</table>

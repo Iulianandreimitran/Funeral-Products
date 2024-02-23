@@ -1,0 +1,119 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PompeFunebre
+build_property.RootNamespace = PompeFunebre
+build_property.ProjectDir = C:\Users\Iulian\source\repos\Nume\PompeFunebre\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Iulian\source\repos\Nume\PompeFunebre
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/AngajatiDepartamente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5nYWphdGlEZXBhcnRhbWVudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Angajati/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5nYWphdGlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Angajati/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5nYWphdGlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Angajati/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5nYWphdGlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Angajati/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5nYWphdGlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/ClientiFacturiPesteSuma/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50aUZhY3R1cmlQZXN0ZVN1bWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/ClientiFurnizori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50aUZ1cm5pem9yaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/FacturiClienti/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyaUNsaWVudGlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/ListaFurnizoritotalComenzi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFGdXJuaXpvcml0b3RhbENvbWVuemlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Manageri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/ProduseFacturi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVzZUZhY3R1cmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/ProduseFurnizoriVariabil/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVzZUZ1cm5pem9yaVZhcmlhYmlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Produse/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVzZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Produse/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVzZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Produse/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVzZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Produse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVzZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/ProdusVariabil/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVzVmFyaWFiaWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/SalariuPesteMedie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsYXJpdVBlc3RlTWVkaWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Iulian/source/repos/Nume/PompeFunebre/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-sjkyfufcn1

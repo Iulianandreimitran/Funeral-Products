@@ -1,0 +1,26 @@
+﻿@page
+@model PompeFunebre.Pages.ProduseFacturi.IndexModel
+@{
+}
+
+<h2>Facturi Produs</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Numar</th>
+            <th>Nume</th>
+            <th>Pret</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.produseFacturiList)
+    {
+        <tr>
+            <td>@item.Numar</td>
+            <td>@item.Nume</td>
+            <td>@item.Pret</td>
+        </tr>
+    }
+    </tbody>
+</table>

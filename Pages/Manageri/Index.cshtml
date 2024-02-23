@@ -1,0 +1,27 @@
+﻿@page
+@model PompeFunebre.Pages.Manageri.IndexModel
+@{
+}
+<h2>Lista Angajati Manageri</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nume Angajat</th>
+            <th>Prenume Angajat</th>
+            <th>Nume Manager</th>
+            <th>Prenume Manager</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ManageriList)
+        {
+            <tr>
+                <td>@item.AngajatNume</td>
+                <td>@item.AngajatPrenume</td>
+                <td>@item.ManagerNume</td>
+                <td>@item.ManagerPrenume</td>
+            </tr>
+        }
+    </tbody>
+</table>
